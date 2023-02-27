@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lonley Support</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.1.9/sweetalert2.min.css" integrity="sha512-cyIcYOviYhF0bHIhzXWJQ/7xnaBuIIOecYoPZBgJHQKFPo+TOBA+BY1EnTpmM8yKDU4ZdI3UGccNGCEUdfbBqw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <style>
+        /* color:  red#ec1c24, black#212d31, grey#343a40, white#eee  */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  color: #212d31;
+  background-color:#916fdf57;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contain {
+  background-color:#d7d1e6;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+  margin-top:5%
+}
+
+div.form {
+  background-color: white;
+}
+.contact-wrapper {
+  margin: auto 0;
+}
+
+/* .submit-btn {
+    float: right;
+} */
+.reset-btn {
+  float: right;
+}
+
+.form-headline:after {
+  content: "";
+  display: block;
+  width: 10%;
+  padding-top: 10px;
+  border-bottom: 3px solid #300c83;
+}
+
+.highlight-text {
+  color: #310a83;
+}
+
+.hightlight-contact-info {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.highlight-text-grey {
+  font-weight: 500;
+}
+
+.email-info {
+    margin-top: 20px;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  font-family: 'Roboto', sans-serif;
+}
+
+.required-input {
+  color: black;
+}
+@media (min-width: 600px) {
+  .contain {
+    padding: 0;
+  }
+}
+
+h3,
+ul {
+  margin: 0;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+.form-input:focus,
+textarea:focus{
+  outline: 1.5px solid #300c83;
+}
+
+.form-input,
+textarea {
+  width: 100%;
+  border: 1px solid #d7d1e6;
+  border-radius: 5px;
+}
+
+.wrapper > * {
+  padding: 1em;
+}
+@media (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .wrapper > * {
+    padding: 2em 2em;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts {
+  color: #212d31;
+}
+
+.form {
+  background: #fff;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+ 
+}
+form label {
+  display: block;
+}
+form p {
+  margin: 0;
+}
+
+.full-width {
+  grid-column: 1 / 3;
+}
+
+button,
+.submit-btn,
+.form-input,
+textarea {
+  padding: 1em;
+}
+
+button, .submit-btn {
+  background: #310a83;
+    border: 1px solid #300c83;
+    color: #ffffff;
+    border-radius: 15px;
+    padding: 16px 78px;
+    text-transform: uppercase;
+}
+button:hover, .submit-btn:hover,
+button:focus , .submit-btn:focus{
+  background: transparent;
+  outline: 0;
+  color: #300c83;
+}
+.error {
+  color: #ec1c24;
+}
+.logo{
+ text-align: center;
+}
+
+.wrapper{
+    background-color:white;
+    border-radius: 30px;
+    border:1px solid #310a83
+}
+</style>
+
+<div class="contain">
+
+    <div class="wrapper">
+        <div class="full-width logo" style="padding-bottom: 0px;"><img src="http://54.205.110.13:5012/static/media/logo22.50550103.png" style="height:180px"></div>
+      <!-- <div class="form" style=" margin-bottom:25px">
+        <h4>GET IN TOUCH</h4>
+        <h2 class="form-headline">Send us a message</h2>
+        <form id="submit-form" action="">
+          <p>
+            <input id="name" class="form-input" type="text" placeholder="Your Name*" required>
+            <small class="name-error"></small>
+          </p>
+          <p>
+            <input id="email" class="form-input" type="email" placeholder="Your Email*" required>
+            <small class="name-error"></small>
+          </p>
+        
+          <p class="full-width">
+            <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+            <small></small>
+          </p>
+         
+          <p class="full-width" style="text-align:center">
+            <input type="submit" class="submit-btn" value="Submit">
+          </p>
+        </form>
+      </div> -->
+  
+      <div class="contacts contact-wrapper">
+  
+        <ul>
+          <li>We are ready to know
+            how we can help you?</li>
+          <span class="hightlight-contact-info" style="line-height:2">
+            <li class="email-info"><i class="fa fa-user" aria-hidden="true"></i> Michael Zickerman </li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;mike@lonelyaf.com</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">520-289-0243</span></li>
+            <li><i class="fa fa-map" aria-hidden="true"></i> <span class="highlight-text">PO BOX 75213, Phoenix, AZ 85087</span></li>
+          </span>
+        </ul>
+      </div>
+    </div>
+  </div>
+ 
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+
+
+const form = document.querySelector("#submit-form");
+
+
+$(document).ready(function () {
+  $("form").submit(function (event) {
+    var data = {
+      name:     $("#name").val() , 
+      email:    $("#email").val(),
+      message:  $("#message").val(),
+    };
+ console.log("data", data)
+    $.ajax({
+      type: "POST",
+      url: "http://54.236.225.230:5093/api/v1/admin/save_support_messages",
+      data: data,
+      dataType: "json",
+      encode: true,
+    }).done(function (res) {
+        $("#name").val('');
+        $("#email").val('');
+        $("#message").val('');
+        Swal.fire(
+            res.message,
+        )
+       
+    });
+
+    event.preventDefault();
+  });
+});
+// function checkValidations() {
+//   let letters = /^[a-zA-Z\s]*$/;
+//   const name = nameEl.value.trim();
+//   const email = emailEl.value.trim();
+//   const message = messageEl.value.trim();
+//   if (name === "") {
+//      document.querySelector(".name-error").classList.add("error");
+//       document.querySelector(".name-error").innerText =
+//         "Please fill out this field!";
+//         return false;
+//   }
+//   if (email === "") {
+//      document.querySelector(".name-error").classList.add("error");
+//       document.querySelector(".name-error").innerText =
+//         "Please fill out this field!";
+//         return false;
+//   }
+//   if (message === "") {
+//      document.querySelector(".name-error").classList.add("error");
+//       document.querySelector(".name-error").innerText =
+//         "Please fill out this field!";
+//         return false;
+//   }
+//     var data = {
+//       name: name,
+//       email:email,
+//       message: message,
+//     };
+
+//     console.log(data);
+//     $.ajax({
+//       type: "POST",
+//       url: "",
+//       data: data,
+//       dataType: "json",
+//       encode: true,
+//     }).done(function (data) {
+//       console.log(data);
+//     });
+
+//     event.preventDefault();
+// }
+
+function reset() {
+  nameEl = "";
+  emailEl = "";
+  companyNameEl = "";
+  messageEl = "";
+  document.querySelector(".name-error").innerText = "";
+}
+
+  </script>
+</body>
+</html>

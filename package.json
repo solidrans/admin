@@ -1,0 +1,42 @@
+{
+    "name": "lonelyAF",
+    "version": "1.0.0",
+    "description": "Lonely AF",
+    "main": "index.js",
+    "scripts": {
+        "start": "pm2 start --name lonelyAF-5065 lenely.js",
+        "restart": "pm2 restart --name LonelyAF-5065 lonely.js"
+    },
+    "author": "lonely AF",
+    "license": "ISC",
+    "dependencies": {
+        "aws-sdk": "^2.1309.0",
+        "axios": "^0.21.4",
+        "body-parser": "^1.19.0",
+        "compress-images": "^2.0.5",
+        "cors": "^2.8.5",
+        "country-state-city": "^3.0.1",
+        "cron": "^1.8.2",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "fcm-node": "^1.6.1",
+        "get-video-duration": "^4.0.0",
+        "image-size": "^1.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "lodash": "^4.17.21",
+        "md5": "^2.3.0",
+        "mime": "^3.0.0",
+        "moment": "^2.29.1",
+        "mongoose": "^6.0.5",
+        "multer": "^1.4.3",
+        "multer-s3": "^2.10.0",
+        "node-cron": "^3.0.0",
+        "nodemailer": "^6.6.3",
+        "path": "^0.12.7",
+        "request": "^2.88.2",
+        "sharp": "^0.31.3",
+        "thumbler": "^1.1.2",
+        "tumbler": "0.0.6",
+        "twilio": "^3.70.0"
+    }
+}

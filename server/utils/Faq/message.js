@@ -1,0 +1,18 @@
+module.exports = {
+    FAQ_ADDED_SUCCESS: "Added successfully",
+    FAQ_ADDED_FAILURE: "Unable to add at this moment",
+    FAQ_UPDATE_SUCCESS: "Data updated successfully",
+    FAQ_UPDATE_FAILURE: "Unable to update data at this moment",
+    FAQ_DELETE_SUCCESS: "Deleted successfully",
+    FAQ_DELETE_FAILURE: "Unable to delete at this moment",
+    UPDATED_SUCCESS: "Updated Successfully",
+    UPDATED_FAILURE: "Unable to update at this moment",
+    DATA_FOUND_SUCCESS: "Data found successfully",
+    DATA_NOT_FOUND: "No data found",
+    VERIFICATION_IMAGE_ADDED_SUCCESS: "Image uploaded successfully",
+    VERIFICATION_IMAGE_ADDED_FAILURE: "Unable to upload image",
+    ACTIVATED_SUCCESS: "Status activated successfully",
+    ACTIVATED_FAILURE: "Unable to activate ",
+    DELETED_SUCCESS: "Deleted Successfully ",
+    DELETED_FAILURE: "Unable to delete at this moment ",
+}

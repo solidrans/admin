@@ -1,0 +1,23 @@
+module.exports = {
+    ADMIN_LOGIN_SUCCESS         : 'Login Success',
+    ADMIN_LOGIN_FAILED          : 'Invalid Credentials',
+    FP_EMAIL_SENT               : 'Forgot Password Instruction has been sent to your Registered Email Address',
+    EMAIL_ERROR                 : 'Unable to send email at the moment',
+    FORGOT_EMAIL_ERROR          : 'Mentioned email is not registered as administrator',
+    PASSWORD_CHANGED            : 'Password has been changed successfully',
+    INVALID_OTP                 : 'Invalid OTP',
+    INVALID_OLD                 : 'Invalid Old Password',
+    PASSWORD_CHANGE_FAILED      : 'Unable to change password',
+    ADMIN_DATA                  : 'Here is a admin detail',
+    INVALID_ADMIN               : 'UnAuthorized Admin Request',
+    SERVER_ERROR                : 'Server Error !!! Please try after some time',
+    ADMIN_UPDATED               : 'Data Updated Successfully',
+    ADMIN_UPDATE_FAILED         : 'Unable to Update Data at the moment',
+    ADMIN_EXIST                 : 'Blogger with Same email is already there',
+    ADMIN_CREATED               : 'Blogger has been registered successfully',
+    ADMIN_CREATE_ERROR          : 'Unable to register blogger at the moment',
+    ADMIN_DELETED               : 'Administrator has been deleted',
+    ADMIN_DELETE_ERROR          : 'Unable to delete administrator at the moment',
+    DASH_DATA                   : "Dashboard Data",
+    UNABLE_TO_UPDATE_OTP_DB     : "Unable to update the OTP in DB"
+}

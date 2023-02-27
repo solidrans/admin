@@ -1,0 +1,15 @@
+module.exports = {
+    USER_DOESNT_EXIST: "user does not exist",
+    MEDIA_NOT_SELECTED: "Media not selected",
+    MEDIA_UPLOADED_SUCCESS: "Media uploaded successfully",
+    MEDIA_UPLOADED_FAILURE: "Unable to add media at this moment",
+    DATA_FOUND_SUCCESS: "Data found successfully",
+    DATA_NOT_FOUND: "No data found",
+    REMOVED_SUCCESSFULLY: "Removed Successfullyt",
+    REMOVED_FAILURE: "Unable to remove at this moment",
+    SET_AS_PROFILE_SUCCESS: "Profile updated successfully",
+    SET_AS_PROFILE_FAILURE: "Unable to set as profile at this moment",
+    UNABLE_TO_UPDATE: "Unable to update as profile",
+    ORDER_UPDATE_SUCCESS: "Order updated successfully",
+    ORDER_UPDATE_FAILURE: "Order updated failure",
+}
